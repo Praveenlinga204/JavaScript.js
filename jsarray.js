@@ -15,3 +15,9 @@ let eid=["rh","gh","jj","hh","mh"]
 for(c of eid){
     console.log(c)
 }
+
+let w =5;
+let x ="5";
+console.log(w+x);
+console.log(w*x);
+console.log(typeof x); 
