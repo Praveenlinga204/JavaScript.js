@@ -51,8 +51,41 @@ i++
 } */
 
 //do while loop
-let i= 0;
+/* let i= 0;
 do{
     console.log(i)
     i++
 }while(i<5); 
+
+//for of 
+let array=[10,20,30,40,50]
+for(value of array){
+    console.log(value);
+}
+
+//for in
+let object={a:3,b:8}
+for(obd in object){
+    console.log(object[obd])
+} */
+
+// unreachable statment
+function geti(x,y){
+   /*  let x= 100;
+    let y = 200; */
+    return(x+y)
+    console.log("Good Morning");
+}
+let r1=geti(100,200)
+console.log(r1);
+
+function login(name){
+    let ename="Rahul"
+    if(ename==name)
+        return true;
+    else
+        return false;
+
+}
+let flag=login("Rahul")
+console.log(flag);
