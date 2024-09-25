@@ -11,8 +11,8 @@ if(eid.length>0){
 //how to verify the given object is empty or not
 
 let ename={a:"Rahul",b:"Sonia",c:"Ranjith"};
-let name={};
-if (name.length>0){
+let namey={a:20,b:59};
+if (namey.keys>0){
     console.log("Given object is not empty")
 }else{
     console.log("Empty object")
