@@ -1,4 +1,4 @@
-let a =[10,20,30,40,50]
+ let a =[10,20,30,40,50]
 console.log(a);
 a.push(60);      // appends new element at the end of the array
 console.log(a);
