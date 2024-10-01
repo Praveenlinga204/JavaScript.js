@@ -1,4 +1,5 @@
 //document.getElementById('abc').innerHTML="Text"
+//we can get the reference by Document.getElementById(),tagName,Classname,QuerySelector
 function changecolor(){
 document.getElementById('abc').style.backgroundColor="green"}
 function changecoloronout(){
@@ -9,10 +10,14 @@ function changecoloronout(){
             document.getElementById('dbc').style.backgroundColor="green"};
             function changecoloronfocus(){
                 document.getElementById('fc').style.color="blue"};
-                function convertToUpper() {
-                  let input = document.getElementById('textInput').value;
-                  let uppercaseInput = input.toUpperCase();
-                  document.getElementById('result').innerText = uppercaseInput; 
-                
+                function convertToUpper(){
+                    document.getElementById("oneeeee");
+                   
+
               }
+
+
+
+              
+              
  
