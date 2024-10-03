@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrp.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="one1"><h1>javaScript Events</h1></div>
+
  <div class="container1">
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
          <h1>OnMouseOver:</h1>
         <p>mouse over to change the button background color</p>
     <button style="background-color: red; height: 30px; width: 150px;" onmouseover="changecolor()" id="abc" >Onmouseover</button>
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
         <h1>OnMouseOut</h1>
        <p>mouseOut to change the button background color</p>
    <button style="background-color: red; height: 30px; width: 150px;" onmouseout="changecoloronout()" id="ab" >onmouseout</button>
    </div>
-   <div class="col-4">
+   <div class="col-md-4">
     <h1>onclick</h1>
    <p>Click to change the button background color</p>
 <button style="background-color: red; height: 30px; width: 150px;" onclick="changecoloronclick()" id="onc" >onclick</button>
@@ -28,20 +33,21 @@
 </div>
 <div class="container2"></div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
          <h1>Ondblclick:</h1>
         <p>Doubleclick to change the button background color</p>
     <button style="background-color: red; height: 30px; width: 150px;" ondblclick="changecolordbc()" id="dbc" >Doubleclick</button>
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
         <h1>OnFocus</h1>
        <p>Click to change the input background color</p>
-   <button style="height: 30px; width: 150px;" onfocus="changecoloronfocus()" id="fc" >onfocus</button>
+   <input onfocus="changecoloronfocus()" id="fc" >
    </div>
-   <div class="col-4">
+   <div class="col-md-4">
     <h1>OnBlur</h1>
    <p>Change Lower case to Uppercase Onblur Events</p>
-   <input type="text" id="oneeeee" onblur="convertToUpper()" style="height: 30px; width: 150px;">
+   <!-- <label for="#">Onblur</label> -->
+     <input type="text" onblur="changecase()" id="idk">
 <!-- <button style=" height: 30px; width: 150px;" onclick="onblurevent()" id="obe" >OnBlur</button>
  -->
 </div>

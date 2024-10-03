@@ -9,12 +9,14 @@ function changecoloronout(){
         function changecolordbc(){
             document.getElementById('dbc').style.backgroundColor="green"};
             function changecoloronfocus(){
-                document.getElementById('fc').style.color="blue"};
-                function convertToUpper(){
-                    document.getElementById("oneeeee");
+                document.getElementById('fc').style.backgroundColor="blue"};
+                function changecase(){
+                    let name=document.getElementById('idk').value;
+                    document.getElementById('idk').value=name.toUpperCase();
+                }
                    
 
-              }
+              
 
 
 
