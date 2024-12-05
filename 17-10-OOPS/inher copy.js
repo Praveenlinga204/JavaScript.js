@@ -12,6 +12,7 @@ class savingAccount extends Account{
     min_bal;
     acc_id;
     acc_bal;
+    amount_t;
     constructor(name,email,min,id,bal){
         super(name,email);
         this.min_bal = min;
@@ -19,7 +20,10 @@ class savingAccount extends Account{
         this.acc_bal = bal;
     }
     deposite_amount(amount){
+        this.amount_t=amount;
+
          this.acc_bal = this.acc_bal + amount;
+         console.log(this.amount_t)
     }
     withdrawal_amount(amount){
         this.acc_bal = this.acc_bal - amount;
@@ -33,7 +37,7 @@ class savingAccount extends Account{
 let a1 = new savingAccount("rahul", "rahul12@gmail.com", 500, 101, 5000);
 console.log(a1);
 a1.deposite_amount(5000);
-console.log(a1);
+console.log(a1.deposite_amount);
 //console.log(`Amount Deposited ${a1.deposite_amount()}`);
 a1.withdrawal_amount(500);
 console.log(a1);
@@ -51,4 +55,7 @@ console.log(a2);
 console.log(`Your Bal is ${a2.get_bal()}`);
 console.log("#############");
 
-
+let templateLiteralString = `Hello, World!`;
+let name = 'Alice';
+let greeting = `Hello, ${name}!`;
+console.log(greeting); // String interpolation

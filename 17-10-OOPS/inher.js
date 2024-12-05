@@ -34,9 +34,8 @@ class savingAccount extends Account{
 
 let a1 = new savingAccount("rahul", "rahul12@gmail.com", 500, 101, 5000);
 console.log(a1)
-let j=a1.deposite_amount(5000);
-console.log(`deposite sucessfuly ${a1.deposite_amount()}`)
-console.log(a1)
+a1.deposite_amount(5000);
+a1.deposite_amount("you deposited sucessfully Rs.");
 //console.log(`Amount Deposited ${a1.deposite_amount()}`);
 a1.withdrawal_amount(500);
 console.log(a1)
